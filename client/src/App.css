@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.Maintenance-Option{
+  text-align: left;
+  margin-left: 150px;
+}
+
+button, input {
+  font-size: 18px;
+}
+
+button {
+  margin-right: 10px;
+  background-color: #8bf;
+}
+
+article {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.right {
+  float: right;
+  font-size: 0.8em;
+  color: red;
+  margin-right: 120px;
+}
+.right::after {
+  content: "";
+  clear: both;
+}
+
+.store-banner {
+  color: blue;
+  margin-top: 60px;
+}
